@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  -ms-overflow-style: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+html {
+  font-size: 62.5%;
+}
+.Home {
+  padding-top: 30vh;
+  font-size: 3rem;
+  text-align: center;
+  color: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: calc(100vh - 72px);
+  background: radial-gradient(circle at top left, #002838, #000);
+}
+.Home h1 {
+  font-style: italic;
+  font-size: 8rem;
+}
+.Contact {
+  margin-bottom: 72px;
+}
+.Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #040404;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px -3px 10px #000;
+}
+.Footer .tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  height: 48px;
+  list-style: none;
+  background-color: #999;
+}
+.Footer .tabs .tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16.55%;
+  height: 47px;
+  margin: 0 0.5px 1px;
+  font-size: 1.6rem;
+  transition: all 0.6s ease-in-out;
+  background-color: #040404;
+}
+.Footer .tabs .tab:hover {
+  font-size: 1.8rem;
+  transition: all 0.6s ease-in-out;
+  background-color: #111;
+}
+.Footer .credits {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace;
+}
