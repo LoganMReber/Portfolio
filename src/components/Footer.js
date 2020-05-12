@@ -7,13 +7,28 @@ const Footer = (props) => {
         <a href='#Projects' className='tab'>
           Projects
         </a>
-        <a href='#' className='tab'>
+        <a
+          href='https://docs.google.com/document/d/1NpDmHSoz0_0rH7n2DOaFbNw3A6Y9Z73USxZBvFKefHw/edit?usp=sharing'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='tab'
+        >
           Resume
         </a>
-        <a href='#' className='tab'>
+        <a
+          href='https://www.linkedin.com/in/logan-reber/'
+          target='_blank'
+          className='tab'
+          rel='noopener noreferrer'
+        >
           LinkedIn
         </a>
-        <a href='#' className='tab'>
+        <a
+          href='https://github.com/LoganMReber'
+          target='_blank'
+          className='tab'
+          rel='noopener noreferrer'
+        >
           Github
         </a>
         <a href='#Contact' className='tab'>

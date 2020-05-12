@@ -5,7 +5,14 @@ const Home = (props) => {
     <div id='Home' className='Home'>
       <h1 className='name'>Logan Reber</h1>
       <h2>Full Stack Web Developer</h2>
-      <h5>HTML,CSS,JS,C++,Python</h5>
+      <h3>HTML | CSS | JavaScript | C++ | Python</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        voluptas beatae consectetur reiciendis officiis dignissimos natus eos
+        maiores fuga animi! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Praesentium voluptas beatae consectetur reiciendis officiis
+        dignissimos natus eos maiores fuga animi!
+      </p>
     </div>
   );
 };
