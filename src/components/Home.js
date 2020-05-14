@@ -7,11 +7,10 @@ const Home = (props) => {
       <h2>Full Stack Web Developer</h2>
       <h3>HTML | CSS | JavaScript | C++ | Python</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-        voluptas beatae consectetur reiciendis officiis dignissimos natus eos
-        maiores fuga animi! Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Praesentium voluptas beatae consectetur reiciendis officiis
-        dignissimos natus eos maiores fuga animi!
+        Versatile and dedicated software developer with strong competence in
+        multiple languages. Excellent ability to work with peers and mentor
+        junior developers. Seeking a full time and preferably remote position as
+        a frontend or backend web developer starting June 2020.
       </p>
     </div>
   );
