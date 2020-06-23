@@ -25,13 +25,9 @@ const Contact = (props) => {
   useEffect(() => {
     if (mail.html.length) {
       axios
-        .post(
-          'http://localhost:4000/portfolio-contact/',
-          // 'https://logan-reber-mailer.herokuapp.com/portfolio-contact/',
-          {
-            ...mail
-          }
-        )
+        .post('https://logan-reber-mailer.herokuapp.com/portfolio-contact/', {
+          ...mail
+        })
         .then((res) => console.log(res))
         .catch((err) => console.log(err));
     }
