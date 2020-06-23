@@ -21,20 +21,20 @@
   }
   form {
     display: flex;
-    flex-direction: column;
-    align-items: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 70%;
-    // border-left: 1px solid #ccc4;
-    // border-right: 1px solid #ccc4;
-    // padding: 0 2rem;
     div {
       display: flex;
-      justify-content: space-evenly;
+      flex-direction: column;
       padding: 0.4rem;
+      width: 48%;
+      min-width: 30rem;
       label,
       input,
       select {
-        width: 35%;
+        width: 100%;
         option {
           text-align: center;
           background-color: #002818;
@@ -69,6 +69,7 @@
     }
     button {
       width: 25%;
+      min-width: 20rem;
       background-color: #eee3;
       border: 1px solid #ddd;
       border-radius: 3px;

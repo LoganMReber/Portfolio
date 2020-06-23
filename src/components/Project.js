@@ -7,6 +7,10 @@ const Project = (props) => {
       <div className='body'>
         <img src={p.img} alt={p.alt} />
         <div className='right'>
+          <p>
+            <b>{p.stack}</b>
+          </p>
+          <br />
           <p>{p.body}</p>
           <div className='links'>
             <a href={p.site} target='_blank' rel='noopener noreferrer'>
