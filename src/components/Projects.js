@@ -6,6 +6,7 @@ const Projects = (props) => {
       name: 'Space Walkers',
       img: './spacewalkers.png',
       alt: 'Space Walkers Site',
+      stack: 'HTML | LESS',
       body:
         'This is a project where the primary goal was to build a site that matched a design document visually from scratch. The major technical issues to address were all about having a thorough understanding of CSS.',
       site: 'https://css-demo-logan-reber.netlify.app/',
@@ -15,6 +16,7 @@ const Projects = (props) => {
       name: 'Caster Card Game',
       img: './castercardgame.png',
       alt: 'Caster Site',
+      stack: 'HTML | LESS | React | Redux | Node',
       body:
         'A solo project using React to make a web app that allows users to play a card game. All code work was done alone with one other teammate working as co-designer.',
       site: 'https://caster-card-game.netlify.app/',
@@ -25,8 +27,8 @@ const Projects = (props) => {
     <div id='Projects' className='Projects'>
       <h1>Projects</h1>
       <div className='list'>
-        {projects.map((p) => (
-          <Project project={p} />
+        {projects.map((p, i) => (
+          <Project key={i} project={p} />
         ))}
       </div>
     </div>

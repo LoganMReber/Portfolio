@@ -9,8 +9,7 @@ const Home = (props) => {
       <p>
         Versatile and dedicated software developer with strong competence in
         multiple languages. Excellent ability to work with peers and mentor
-        junior developers. Seeking a full time and preferably remote position as
-        a frontend or backend web developer starting June 2020.
+        junior developers. Also available as hire as a computer science tutor.
       </p>
     </div>
   );
