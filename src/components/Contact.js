@@ -15,11 +15,18 @@ const Contact = (props) => {
     text: 'Nothing written'
   });
   const sendMail = (event) => {
-    // event.preventDefault();
+    event.preventDefault();
     setMail({
       ...mail,
       subject: `${form.subject} - (${form.category})`,
       html: `<h3>Sender: ${form.name}</h3><h3>Email: ${form.email}</h3><p>${form.text}</p>`
+    });
+    setForm({
+      name: '',
+      email: '',
+      subject: '',
+      category: '',
+      text: ''
     });
   };
   useEffect(() => {
