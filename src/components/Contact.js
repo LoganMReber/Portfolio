@@ -15,7 +15,7 @@ const Contact = (props) => {
     text: 'Nothing written'
   });
   const sendMail = (event) => {
-    event.preventDefault();
+    // event.preventDefault();
     setMail({
       ...mail,
       subject: `${form.subject} - (${form.category})`,
@@ -28,7 +28,11 @@ const Contact = (props) => {
         .post('https://logan-reber-mailer.herokuapp.com/portfolio-contact/', {
           ...mail
         })
-        .then((res) => console.log(res))
+        .then((res) =>
+          window.alert(
+            "Thank you for contacting me. I'll get back to you as soon as possible."
+          )
+        )
         .catch((err) => console.log(err));
     }
   }, [mail]);
